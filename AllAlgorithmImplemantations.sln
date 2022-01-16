@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllAlgorithmImplemantations", "AllAlgorithmImplemantations\AllAlgorithmImplemantations.csproj", "{9B31D32E-8DF2-4533-8D1B-13CC99147879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Driver", "Driver\Driver.csproj", "{0745F215-F418-48CC-99B5-36EB04BF3845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B31D32E-8DF2-4533-8D1B-13CC99147879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B31D32E-8DF2-4533-8D1B-13CC99147879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B31D32E-8DF2-4533-8D1B-13CC99147879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B31D32E-8DF2-4533-8D1B-13CC99147879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0745F215-F418-48CC-99B5-36EB04BF3845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0745F215-F418-48CC-99B5-36EB04BF3845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0745F215-F418-48CC-99B5-36EB04BF3845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0745F215-F418-48CC-99B5-36EB04BF3845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0613C09-A5B2-4E94-AE52-D359C5691606}
+	EndGlobalSection
+EndGlobal
