@@ -1,3 +1,3 @@
-# AllAlgorithmImplementations
-All algorithm implemented in .net 
+# All Algorithm Implementations in .net core
+
 Reference book: Robert Sedgewick, Algorithms
