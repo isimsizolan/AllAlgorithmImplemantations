@@ -8,9 +8,10 @@ namespace Driver
         static void Main(string[] args)
         {
 
-            int[] arr = { 5, 1, 1, 12, 3 };
+            int[] arr = { 5, 1, 1, 12, 3 ,0 };
 
-            arr = arr.SelectionSort();
+            arr = arr.InsertionSort();
+
 
             foreach (var item in arr)
             {
