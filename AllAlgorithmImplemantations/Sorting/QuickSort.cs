@@ -4,9 +4,9 @@ using System.Text;
 
 namespace AllAlgorithmImplemantations.Sorting
 {
-    public static class MergeSortExtension
+    public static class QuickSortExtension
     {
-        public static int[] MergeSort(this int[] arr)
+        public static int[] QuickSort(this int[] arr)
         {
             return arr;
         }
