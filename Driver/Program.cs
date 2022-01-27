@@ -8,7 +8,7 @@ namespace Driver
         static void Main(string[] args)
         {
 
-            int[] arr = { 5, 1, 1, 12, 3 ,0 };
+            int[] arr = { 1,2,3,4,5,6,7 };
 
             arr = arr.QuickSort();
 

@@ -27,25 +27,15 @@ namespace AllAlgorithmImplemantations.Sorting
             int j = high + 1;
             int pivot = arr[low];
 
-            while (true)
+            do
             {
-                while (arr[++i] < pivot)
-                {
-                    if (i == high)
-                        break;
-                }   
-                while (pivot < arr[--j])
-                {
-                    if (j == low)
-                        break;
-                }
-                if (i >= j)
-                    break;
-                exhange(arr, i, j);
-            }
+                while (arr[++i] < pivot && i <= high);
+                while (pivot < arr[--j] && j >= low);
+                if(j>=i)
+                    exhange(arr, i, j);
+            } while (!(j < i));
 
-            
-            exhange(arr, low, j);
+            exhange(arr, j, low);
             return j;
         }
 
