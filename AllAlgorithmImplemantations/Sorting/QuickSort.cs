@@ -17,8 +17,8 @@ namespace AllAlgorithmImplemantations.Sorting
             if (high <= low)
                 return;
             int pivotindex = partition(arr, low, high);
-            sort(arr, low, --pivotindex);
-            sort(arr, ++pivotindex, high);
+            sort(arr, low, pivotindex-1);
+            sort(arr, pivotindex+1, high);
         }
         private static int partition(int[] arr,int low, int high)
         {
