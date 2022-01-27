@@ -10,7 +10,7 @@ namespace Driver
 
             int[] arr = { 5, 1, 1, 12, 3 ,0 };
 
-            arr = arr.MergeSort();
+            arr = arr.QuickSort();
 
 
             foreach (var item in arr)
