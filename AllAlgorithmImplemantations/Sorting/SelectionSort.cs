@@ -6,7 +6,7 @@ namespace AllAlgorithmImplemantations.Sorting
 {
     public static class SelectionSortExtention
     {
-        public static int[] SelectionSort(this int[] arr )
+        public static void SelectionSort(this int[] arr )
         {
 
             int N = arr.Length;
@@ -24,8 +24,6 @@ namespace AllAlgorithmImplemantations.Sorting
                 arr[i] = arr[min];
                 arr[min] = tmp;
             }
-
-            return arr;
         }
     }
 }

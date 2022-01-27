@@ -6,14 +6,15 @@ namespace AllAlgorithmImplemantations.Sorting
 {
     public static class QuickSortExtension
     {
-        public static int[] QuickSort(this int[] arr)
+        public static void QuickSort(this int[] arr)
         {
             sort(arr, 0, arr.Length-1);
-            return arr;
         }
 
         private static void sort(int[] arr, int low, int high )
         {
+            //TODO: add control to return if array is sorted (asc or dsc)
+
             if (high <= low)
                 return;
             int pivotindex = partition(arr, low, high);

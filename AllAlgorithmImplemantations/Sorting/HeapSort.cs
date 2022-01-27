@@ -4,10 +4,11 @@ using System.Text;
 
 namespace AllAlgorithmImplemantations.Sorting
 {
-    public static class BubbleSortExtention
+    public static class HeapSortExtention
     {
-        public static void BubbleSort(this int[] arr)
+        public static void HeapSort(int[] arr)
         {
+
         }
     }
 }

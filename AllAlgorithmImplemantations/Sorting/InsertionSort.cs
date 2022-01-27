@@ -6,7 +6,7 @@ namespace AllAlgorithmImplemantations.Sorting
 {
     public static class InsertionSortExtention
     {
-        public static int[] InsertionSort(this int[] arr)
+        public static void InsertionSort(this int[] arr)
         {
 
             int i;
@@ -25,7 +25,6 @@ namespace AllAlgorithmImplemantations.Sorting
                 }
             }
 
-            return arr;
         }
     }
 }

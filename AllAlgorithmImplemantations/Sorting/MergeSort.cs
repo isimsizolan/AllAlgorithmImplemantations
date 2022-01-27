@@ -6,11 +6,10 @@ namespace AllAlgorithmImplemantations.Sorting
 {
     public static class MergeSortExtension
     {
-        public static int[] MergeSort(this int[] arr)
+        public static void MergeSort(this int[] arr)
         {
             int[] aux = new int[arr.Length];
             sort(arr, aux, 0, arr.Length-1);
-            return arr;
         }
 
         public static void sort(int[] arr, int[] aux, int low, int high)
