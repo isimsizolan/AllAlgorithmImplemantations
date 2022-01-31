@@ -4,11 +4,12 @@ using System.Text;
 
 namespace AllAlgorithmImplemantations.Sorting
 {
-    public static class HeapSortExtention
+    public class HeapSort : ISort
     {
-        public static void HeapSort(int[] arr)
-        {
 
+        public int[] Sort(int[] arr)
+        {
+            throw new NotImplementedException();
         }
     }
 }
