@@ -8,9 +8,14 @@ namespace Driver
         static void Main(string[] args)
         {
 
-            int[] arr = { 1,2,3,4,5,6,7 };
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            arr = arr.QuickSort();
+            //arr = arr.QuickSort();
+
+            ISort sortAlgorithm = new BubbleSort();
+            //ISort sortAlgorithm = new SelectionSort();
+
+            arr = sortAlgorithm.Sort(arr);
 
 
             foreach (var item in arr)
