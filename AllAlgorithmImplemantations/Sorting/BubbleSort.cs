@@ -4,10 +4,9 @@ using System.Text;
 
 namespace AllAlgorithmImplemantations.Sorting
 {
-    public class BubbleSort : ISort
+    public static class BubbleSortExtention
     {
-
-        public int[] Sort(int[] arr)
+        public static void BubbleSort(this int[] arr)
         {
 
             int len = arr.Length;
@@ -33,8 +32,6 @@ namespace AllAlgorithmImplemantations.Sorting
                     break;
                 }
             }
-
-            return arr;
         }
     }
 }
