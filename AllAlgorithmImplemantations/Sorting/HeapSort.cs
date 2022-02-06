@@ -4,10 +4,10 @@ using System.Text;
 
 namespace AllAlgorithmImplemantations.Sorting
 {
-    public class HeapSort : ISort
+    public static class HeapSortExtention
     {
 
-        public int[] Sort(int[] arr)
+        public static void Sort(this int[] arr)
         {
             throw new NotImplementedException();
         }

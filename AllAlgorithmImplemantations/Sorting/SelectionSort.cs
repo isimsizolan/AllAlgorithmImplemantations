@@ -4,10 +4,10 @@ using System.Text;
 
 namespace AllAlgorithmImplemantations.Sorting
 {
-    public class SelectionSort : ISort
+    public static class SelectionSortExtention
     {
 
-        public int[] Sort(int[] arr)
+        public static void SelectionSort(this int[] arr)
         {
             int N = arr.Length;
             int min;
@@ -24,8 +24,6 @@ namespace AllAlgorithmImplemantations.Sorting
                 arr[i] = arr[min];
                 arr[min] = tmp;
             }
-
-            return arr;
         }
     }
 }

@@ -4,17 +4,14 @@ using System.Text;
 
 namespace AllAlgorithmImplemantations.Sorting
 {
-    public class InsertionSort : ISort
+    public static class InsertionSortExtention
     {
 
-        public int[] Sort(int[] arr)
+        public static void InsertionSort(this int[] arr)
         {
-            int i;
-            int j;
-
-            for (i = 1; i < arr.Length; i++)
+            for (int i = 1; i < arr.Length; i++)
             {
-                for (j = i; j > 0; j--)
+                for (int j = i; j > 0; j--)
                 {
                     if (arr[j] < arr[j - 1])
                     {
@@ -24,8 +21,6 @@ namespace AllAlgorithmImplemantations.Sorting
                     }
                 }
             }
-
-            return arr;
         }
     }
 }
